@@ -1,0 +1,6 @@
+Everything is packaged in the file "whale_data.zip". 
+"small_data_sample_revised.zip" contains 10 example clips if you want to explore the data format before downloading the full data file. 
+The data consists of 30,000 training samples and 54,503 testing samples. 
+Each candidate is a 2-second .aiff sound clip with a sample rate of 2 kHz. 
+The file "train.csv" gives the labels for the train set. 
+Candidates that contain a right whale call have label=1, otherwise label=0.
