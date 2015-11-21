@@ -13,4 +13,10 @@
   " Enregistrer le tout dans un tableau "
 
 
-" III partie : "
+" III partie : Traiter les données brutes "
+  
+  "Effectuer une FFT(Fast Fourier Transform) discrète de dimension 1"
+  
+  "Chercher les caractéristiques d'un signal de baleine franche: faire une moyenne des pics ?"
+  
+  "Comparer un signal à celui d'une baleine franche: faire un calcul de distance par rapport à notre modèle?"
