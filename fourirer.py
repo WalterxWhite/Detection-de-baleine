@@ -8,7 +8,7 @@ import sys
 from scipy.fftpack import fft
 import matplotlib.pyplot as plt
 
-
+#Fonction qui lit le fichier audio et enregistre dans un fichier txt les valeurs du son
 def ReadAIFF(file):
 	""" Read AIFF and convert to numpy array
 		Args:
@@ -42,10 +42,16 @@ def fourrier(data):
 	plt.show()
 
 
-
-
+"""Lecture et enregistrement, puis affichage"""
 datafolder = "C:/Users/Thibault/Desktop/INFORMATIQUE/BALEINE-PROJET/train6.aiff"
-print ReadAIFF(datafolder)
+tab = ReadAIFF(datafolder)
+plt.plot(tab)
+
+"""FFT et affichage du spectre"""
+w = np.fft.fft(tab)
+plt.plot(w)
+
+
 """txt_file = r"test.txt"
 csv_file = r"test1.csv"
 in_txt = open(txt_file, "r")
