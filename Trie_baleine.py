@@ -12,6 +12,6 @@ def Trie (csv):
       baleine_franche[k]=clip_name[i]
       k+=1
     else : 
-      i++
+      i+=1
 
   baleine_franche = csv.writer(open("Baleine_franche.csv", "wb"))
