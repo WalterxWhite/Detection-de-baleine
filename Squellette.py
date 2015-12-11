@@ -1,22 +1,14 @@
-" I partie : Selectionné les fichiers baleines franches "
+    " I partie Transformation des fichiers audio "
+    
+    " Lire les differents fichier audio ' Train/Test ' à la chaine "
+    " Utiliser le module AIFC sur les fichiers "
+    " Effectuer une FFT(Fast Fourier Transform) discrète de dimension 1 sur les train"
 
-    " Utilisation d'un algo CART binaire pour séparer les fichiers en deux "
+    " II partie : Etalonnage de nos données"
 
+    " Utilisation Scikit learn et attribution des 1/0 pour les trains "
 
+    " III partie : Attribution des 1/0 pour les test ( avec % d'erreur ) "
 
-" II partie : Transformer les valeurs audio des fichiers en valeurs numérique "
-
-  " Lire les differents fichier audio à la chaine "
-  
-  " Utiliser le module AIFC sur les fichiers "
-  
-  " Enregistrer le tout dans un tableau "
-
-
-" III partie : Traiter les données brutes "
-  
-  "Effectuer une FFT(Fast Fourier Transform) discrète de dimension 1"
-  
-  "Chercher les caractéristiques d'un signal de baleine franche: faire une moyenne des pics ?"
-  
-  "Comparer un signal à celui d'une baleine franche: faire un calcul de distance par rapport à notre modèle?"
+    " Comparation des fichiers Test avec notre base de données"
+    " Enregistrer le tout dans un tableau "
