@@ -32,7 +32,17 @@ datafolder = "/home/villebon/Documents/train1.aiff"
 tab = ReadAIFF(datafolder)
 
 """FFT et affichage du spectre"""
-w = np.fft.fft(tab)
-plt.plot(w)
+"""Lecture et enregistrement, puis affichage"""
+datafolder = "/home/villebon/Documents/train1.aiff"
+tab = ReadAIFF(datafolder)
+
+"""FFT et affichage du spectre"""
+z = np.fft.fft(tab)
+print(len(z))
+w = np.fft.rfft(tab)
+x = np.arange(len(w))*2
+print(len(w))
+#plt.plot(z, color ='red')
+plt.plot(x, w, color = 'green')
 plt.show()
 
