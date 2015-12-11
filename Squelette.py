@@ -2,7 +2,8 @@
     
     " Lire les differents fichier audio ' Train/Test ' à la chaine "
     " Utiliser le module AIFC sur les fichiers "
-    " Effectuer une FFT(Fast Fourier Transform) discrète de dimension 1 sur les train"
+    " Effectuer une rFFT(Fast Fourier Transform) discrète de dimension 1 sur les train"
+    " Prend que les premiers 1000kHz du fichier et enregistrement dans un vecteur numpy " 
 
     " II partie : Etalonnage de nos données"
 
