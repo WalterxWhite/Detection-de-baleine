@@ -1,8 +1,7 @@
 " I partie Transformation des fichiers audio "
     
     " Séparation des fichiers train en deux "
-        " X_train, X_test, y_train, y_test = train_test_split("
-        " X, y, test_size=0.33, random_state=42) "
+        " X_train, X_test, y_train, y_test = train_test_split( X, y, test_size=0.33, random_state=42) "
     " Lire les differents fichier audio ' Train/test ' à la chaine "
     " Utiliser le module AIFC sur les fichiers "
     " Effectuer une rFFT(Fast Fourier Transform) discrète de dimension 1 sur les train"
